@@ -15,6 +15,13 @@ the letters represent incremetns of 10 that means that A = 10 , B = 20 and so on
 numbers just represent their normal value
 this would give me the exapt same resoult as using hexadecimal numbers but my version could be improved because I have more letters than needed to compleat the task so I can probaly do some trickery to make it shorter
 
+
+####what needs to happen in this solution 
+
+to see if a number ends on a 0 divide by 10 and see if this leaves you with a number that is also devidable and that does not have any numbers after the , 
+if it does then subtrackt a number and repeat until you have the number of 10s that the class has and you have the number behind that .
+the amount of 10s then will corospond to a letter and the numbers will be just normanl added to that. this is how you should get the rigth amount.
+
 ##### Usefull resources 
 
 https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/net/Inet4Address.html
