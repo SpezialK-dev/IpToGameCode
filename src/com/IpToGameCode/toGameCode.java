@@ -1,12 +1,12 @@
 package com.IpToGameCode;
 
 import java.net.Inet4Address;
+import java.net.InetAddress;
 
 public class toGameCode extends Main{
-    public static String conversion(Inet4Address add[]){
-        System.out.println(add[0].getHostAddress()); // I also just want to see what this gives us //this shold be it and should work even better
-        System.out.println(add.toString()); //this should be enought since we are not doing a revers lookup and only this should give us the deired output
-        String theCurrentIpAddressAsString = add[0].getHostAddress();
+    public static String conversion(InetAddress add){
+        System.out.println(add.getHostAddress()); // I also just want to see what this gives us //this shold be it and should work even better
+        String theCurrentIpAddressAsString = add.getHostAddress();
         String IpAddressArray[] = theCurrentIpAddressAsString.split(".");
         return "";//todo add something to reutnr
     }
