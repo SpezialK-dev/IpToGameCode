@@ -22,6 +22,12 @@ to see if a number ends on a 0 divide by 10 and see if this leaves you with a nu
 if it does then subtrackt a number and repeat until you have the number of 10s that the class has and you have the number behind that .
 the amount of 10s then will corospond to a letter and the numbers will be just normanl added to that. this is how you should get the rigth amount.
 
+#### things I will do to speed up this process
+
+first I will roughtly charigorize the float valou so that It has less to iterate through and it has less code to check.
+maybe in valous of 5 like the thinks of 0-5, 6-10, 11-15, 16-20, 21-25. This should cover everything
+
+
 ##### Usefull resources 
 
 https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/net/Inet4Address.html
