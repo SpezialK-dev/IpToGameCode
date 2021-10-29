@@ -14,7 +14,7 @@ public class Main {
         } catch (UnknownHostException e) {
             e.printStackTrace();
         }
-        toGameCode.conversion(test1);
-
+        String currnetG = toGameCode.conversion(test1);
+        System.out.println("the final address as an InetAddress"+ GameCodeToIp.convertoInet(currnetG));
     }
 }
