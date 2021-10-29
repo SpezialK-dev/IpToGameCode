@@ -4,7 +4,10 @@ import java.net.InetAddress;
 import java.util.regex.Pattern;
 
 public class toGameCode extends Main{
+
+    //the list of all characters
     final static String[] allLetersinOrder = {"N","A","B","C","D","E","F","G","H","I","J","K","L","M","O","P","Q","R","S","T","U","V","W","X","Y","Z"};//the list of all letters in the order that they will be assigned
+
     public static String conversion(InetAddress add){
         //useless print command
         String endGameCode ="";
@@ -26,7 +29,7 @@ public class toGameCode extends Main{
         return endGameCode;
     }
     //converts the individual number into a string
-    public static String convertIndividualAddresToWords(String partOfTheAddress){
+    private static String convertIndividualAddresToWords(String partOfTheAddress){
         String finalString = "";
         //takes the number and converts it into a float and divides that float by 10 so that I can separate the first and second part later
         float ogPartofAdd=Float.parseFloat(partOfTheAddress);

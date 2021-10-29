@@ -10,7 +10,7 @@ public class Main {
         InetAddress test1= null;
 
         try {
-            test1 = InetAddress.getByName("255.255.255.0");
+            test1 = InetAddress.getByName("155.122.32.0");
         } catch (UnknownHostException e) {
             e.printStackTrace();
         }

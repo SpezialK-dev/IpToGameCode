@@ -1,8 +1,12 @@
 package com.IpToGameCode;
 
-public class GameCodeToIp {
-    public GameCodeToIp(){
+import java.net.InetAddress;
 
-        //this will turn the ip into a gamecode
-    }
+public class GameCodeToIp {
+        //public InetAddress convertoInet(String input){
+            //todo add evertthing
+
+            //return null;
+        //}
 }
+
