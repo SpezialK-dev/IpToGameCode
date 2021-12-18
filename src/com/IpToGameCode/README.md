@@ -16,7 +16,7 @@ numbers just represent their normal value
 this would give me the exact same result as using hexadecimal numbers but my version could be improved because I have more letters than needed to complete the task, so I can probably do some trickery to make it shorter
 
 
-####what needs to happen in this solution 
+#### what needs to happen in this solution 
 
 to see if a number of ends on a 0 divide by 10 and see if this leaves you with a number that is also dividable and that does not have any numbers after the , 
 if it does then subtract a number and repeat until you have the number of 10s that the class has, and you have the number behind that .
